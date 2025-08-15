@@ -3,6 +3,7 @@ import { ServiceCard } from "@/components/ui/service-card";
 import { DesignIcon } from "@/components/icons/design-icon";
 import { WebIcon } from "@/components/icons/web-icon";
 import { GameIcon } from "@/components/icons/game-icon";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
@@ -25,6 +26,11 @@ const Index = () => {
               <Button variant="hero" size="lg" className="text-lg px-8 py-4">
                 View My Work
               </Button>
+              <Link to="/games">
+                <Button variant="contact" size="lg" className="text-lg px-8 py-4">
+                  Play Games
+                </Button>
+              </Link>
               <Button variant="contact" size="lg" className="text-lg px-8 py-4">
                 Get In Touch
               </Button>
@@ -80,17 +86,19 @@ const Index = () => {
             </div>
             
             <div className="animate-slide-in-right">
-              <ServiceCard
-                icon={<GameIcon />}
-                title="Game Programming"
-                description="Interactive gaming experiences from concept to completion with engaging gameplay mechanics."
-                features={[
-                  "2D/3D Game Development",
-                  "Mobile Games",
-                  "Game Mechanics",
-                  "Interactive Media"
-                ]}
-              />
+              <Link to="/games">
+                <ServiceCard
+                  icon={<GameIcon />}
+                  title="Game Programming"
+                  description="Interactive gaming experiences from concept to completion with engaging gameplay mechanics."
+                  features={[
+                    "2D/3D Game Development",
+                    "Mobile Games",
+                    "Game Mechanics",
+                    "Interactive Media"
+                  ]}
+                />
+              </Link>
             </div>
           </div>
         </div>
