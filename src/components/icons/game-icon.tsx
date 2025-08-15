@@ -1,0 +1,69 @@
+export const GameIcon = () => (
+  <svg
+    width="64"
+    height="64"
+    viewBox="0 0 64 64"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className="w-16 h-16"
+  >
+    <path
+      d="M8 20c0-4.418 3.582-8 8-8h32c4.418 0 8 3.582 8 8v24c0 4.418-3.582 8-8 8H16c-4.418 0-8-3.582-8-8V20z"
+      stroke="currentColor"
+      strokeWidth="2"
+      fill="none"
+    />
+    <circle
+      cx="20"
+      cy="28"
+      r="3"
+      fill="currentColor"
+      opacity="0.6"
+    />
+    <circle
+      cx="20"
+      cy="36"
+      r="3"
+      fill="currentColor"
+      opacity="0.6"
+    />
+    <circle
+      cx="44"
+      cy="24"
+      r="2"
+      fill="currentColor"
+      opacity="0.8"
+    />
+    <circle
+      cx="52"
+      cy="24"
+      r="2"
+      fill="currentColor"
+      opacity="0.8"
+    />
+    <circle
+      cx="48"
+      cy="28"
+      r="2"
+      fill="currentColor"
+      opacity="0.8"
+    />
+    <circle
+      cx="48"
+      cy="20"
+      r="2"
+      fill="currentColor"
+      opacity="0.8"
+    />
+    <path
+      d="M12 40h8v4h-8V40z"
+      fill="currentColor"
+      opacity="0.4"
+    />
+    <path
+      d="M44 40h8v4h-8V40z"
+      fill="currentColor"
+      opacity="0.4"
+    />
+  </svg>
+);
