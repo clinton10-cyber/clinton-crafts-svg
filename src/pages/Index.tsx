@@ -147,18 +147,29 @@ const Index = () => {
             Ready to bring your project to life? Contact me for affordable, high-quality digital solutions.
           </p>
           
-          <div className="grid md:grid-cols-2 gap-8 mb-12">
+          <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div className="gradient-card p-8 rounded-lg animate-slide-in-left hover-glow transition-smooth">
               <div className="text-accent text-4xl mb-4">📧</div>
               <h3 className="text-xl font-semibold mb-2 text-foreground">Email</h3>
               <p className="text-muted-foreground">clintonbenjamin208@gmail.com</p>
             </div>
             
-            <div className="gradient-card p-8 rounded-lg animate-slide-in-right hover-glow transition-smooth">
+            <div className="gradient-card p-8 rounded-lg animate-fade-in hover-glow transition-smooth" style={{ animationDelay: '0.1s' }}>
               <div className="text-accent text-4xl mb-4">📱</div>
               <h3 className="text-xl font-semibold mb-2 text-foreground">Phone</h3>
               <p className="text-muted-foreground">08051047303</p>
             </div>
+            
+            <a 
+              href="https://wa.me/2348051047303" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="gradient-card p-8 rounded-lg animate-slide-in-right hover-glow transition-smooth hover-scale cursor-pointer block"
+            >
+              <div className="text-accent text-4xl mb-4">💬</div>
+              <h3 className="text-xl font-semibold mb-2 text-foreground">WhatsApp</h3>
+              <p className="text-muted-foreground">Chat with me instantly</p>
+            </a>
           </div>
           
           <Button variant="hero" size="lg" className="text-lg px-12 py-4 animate-pulse-glow">
